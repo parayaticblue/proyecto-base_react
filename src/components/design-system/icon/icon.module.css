@@ -1,0 +1,23 @@
+.primary {
+  @apply text-uv-primary-0 block;
+}
+
+.secondary {
+  @apply text-uv-secondary-0 block;
+}
+
+.terciary {
+  @apply text-neutral-0 block;
+}
+
+.default {
+  @apply text-uv-primary-0 block;
+}
+
+.white {
+  @apply text-white block;
+}
+
+.black {
+  @apply text-black block;
+}

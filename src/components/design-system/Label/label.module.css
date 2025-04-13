@@ -1,0 +1,10 @@
+.label{
+  @apply 
+
+  font-primary
+  text-[13px]
+  font-medium
+  text-neutral-10
+  pb-1.5
+  inline-block
+}

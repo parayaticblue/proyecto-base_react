@@ -1,0 +1,47 @@
+.wrapper{
+  @apply
+  container bg-uv-primary-90 p-1 rounded max-w-[inherit] sm:p-4
+}
+.wrapperFocused{
+  @apply bg-uv-primary-70
+}
+.wrapperDragAccept{
+  @apply bg-uv-primary-70
+}
+.wrapperDragReject{
+  @apply bg-error-light cursor-not-allowed 
+}
+
+.root{
+  @apply 
+  border
+  border-dashed
+  border-uv-primary-60
+  rounded
+}
+
+.isFocused{
+  @apply
+  border-neutral-0
+}
+
+.isDragAccept{
+  @apply
+  border-success-dark
+}
+
+.isDragReject{
+  @apply border-error-dark
+}
+
+.image{
+  @apply
+  block w-auto h-full
+}
+
+.wrapperDisabled{
+  @apply bg-neutral-90 opacity-50 cursor-not-allowed
+}
+.isDisabled{
+  @apply border-neutral-60
+}

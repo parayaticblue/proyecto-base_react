@@ -1,0 +1,12 @@
+.thumbnail {
+  @apply relative w-40;
+}
+.thumbnailInner {
+  @apply w-40 h-44 relative overflow-hidden rounded shadow-md bg-no-repeat bg-center bg-cover bg-white mb-2 border items-center justify-center;
+}
+.fileContainer canvas {
+  @apply !w-full !h-auto;
+}
+.fullDisplay {
+  @apply w-full h-auto;
+}

@@ -1,0 +1,29 @@
+.a {
+  @apply inline-flex
+  underline
+  text-black
+
+  hover:cursor-pointer
+  hover:text-black;
+}
+
+.button {
+  @apply h-9
+  inline-flex
+  bg-uv-secondary-10
+  text-white
+
+  font-primary
+  text-[13px]
+  font-medium
+  py-2 px-4
+  rounded
+
+  cursor-pointer
+  items-center
+
+  no-underline
+  hover:no-underline
+  hover:bg-uv-secondary-0
+  focus:bg-uv-secondary-20;
+}

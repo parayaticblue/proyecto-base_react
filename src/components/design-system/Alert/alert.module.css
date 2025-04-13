@@ -1,0 +1,21 @@
+.base {
+  @apply font-primary text-[13px] text-black;
+}
+.iconBase {
+  @apply w-8 h-8 sm:w-11 sm:h-11 rounded-full text-center sm:py-1;
+}
+.iconBase svg {
+  @apply w-6 h-6 sm:w-8 sm:h-8;
+}
+.info {
+  @apply bg-info-light text-info-dark;
+}
+.success {
+  @apply bg-success-light text-success-dark;
+}
+.error {
+  @apply bg-error-light text-error-dark;
+}
+.warning {
+  @apply bg-warning-light text-warning-dark;
+}

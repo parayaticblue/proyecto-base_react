@@ -1,0 +1,12 @@
+.base {
+  @apply !text-white p-1;
+}
+.track {
+  @apply !bg-uv-primary-0 h-7 w-[60px] rounded-2xl;
+}
+.checked {
+  @apply !opacity-100 !translate-x-8 bg-uv-primary-0;
+}
+.root {
+  @apply h-7 w-[60px] p-0 mr-3;
+}

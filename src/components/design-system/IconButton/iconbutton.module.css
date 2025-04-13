@@ -1,0 +1,74 @@
+.primary{
+  @apply 
+  bg-uv-secondary-10
+  text-white
+  hover:bg-uv-secondary-0
+  focus:bg-uv-secondary-20
+}
+
+.primary svg,
+.secondary:focus svg{
+  @apply text-white
+}
+
+.secondary{
+  @apply 
+  !bg-background-primary
+  hover:!bg-uv-primary-80
+  focus:!bg-uv-primary-0
+  focus:text-white
+}
+
+.secondary svg{
+  @apply text-uv-primary-0 
+}
+
+.error{
+  @apply
+  bg-white
+  hover:bg-error-dark
+}
+.error svg{
+  @apply text-error-dark
+}
+
+.error:hover svg{
+  @apply text-white
+}
+
+.neutral{
+  @apply 
+  bg-transparent
+  text-black
+  hover:bg-neutral-90
+  focus:bg-neutral-80
+}
+
+.disabled{
+  @apply 
+  !bg-neutral-90
+  !text-neutral-50
+  !cursor-not-allowed
+  !pointer-events-none
+
+}
+
+.disabled svg{
+  @apply text-neutral-50
+}
+
+.disabled:hover svg{
+  @apply text-neutral-50
+}
+
+.disabled:hover{
+  @apply 
+  !bg-neutral-90
+  !text-neutral-50
+}
+
+.disabled:focus{
+  @apply 
+  !bg-neutral-90
+  !text-neutral-50
+}

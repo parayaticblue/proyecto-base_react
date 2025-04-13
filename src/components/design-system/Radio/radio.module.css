@@ -1,0 +1,11 @@
+.root{
+  @apply text-uv-primary-0
+}
+
+.checked{
+  @apply !text-uv-primary-0
+}
+
+.disabled{
+  @apply opacity-50
+}

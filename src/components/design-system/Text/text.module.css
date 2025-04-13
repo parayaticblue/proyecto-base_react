@@ -1,0 +1,36 @@
+.p {
+  @apply text-sm
+  text-neutral-10
+  font-normal
+  font-primary;
+}
+
+.M {
+  @apply text-neutral-30
+  font-medium
+  text-[13px];
+}
+
+.S {
+  @apply font-normal
+  text-xs;
+}
+
+.L {
+  @apply font-medium
+  text-base;
+}
+
+.label {
+  @apply mb-1 block font-secondary text-xs font-medium uppercase text-neutral-60 tracking-wider;
+}
+
+.span {
+  @apply mb-1 block 
+  font-secondary 
+  text-xs 
+  text-neutral-60 
+  tracking-wider 
+  font-medium 
+  uppercase;
+}

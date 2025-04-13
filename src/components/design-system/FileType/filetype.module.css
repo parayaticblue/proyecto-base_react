@@ -1,0 +1,24 @@
+.baseFileType{
+  @apply 
+  h-5 w-6 text-white text-[9px] 
+  font-secondary font-normal text-center rounded tracking-wide
+  py-1 flex-none mr-2
+}
+.png{
+  @apply bg-[#1CB798]
+}
+.jpg{
+  @apply bg-[#1CB798]
+}
+.xls{
+  @apply bg-[#4CB86D]
+}
+.ppt{
+  @apply bg-[#E77D24]
+}
+.doc{
+  @apply bg-[#3896D2]
+}
+.pdf{
+  @apply bg-[#E84C3D]
+}

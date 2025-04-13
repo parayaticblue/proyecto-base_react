@@ -1,0 +1,3 @@
+.thumbnail {
+  @apply relative w-40 h-48 overflow-hidden mb-2;
+}

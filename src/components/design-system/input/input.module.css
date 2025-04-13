@@ -1,0 +1,54 @@
+.root {
+  @apply w-full min-h-[40px]
+  border outline-0 border-neutral-70 rounded 
+  text-neutral-0 font-primary 
+  p-0
+  bg-white
+
+  hover:border-neutral-50 hover:shadow-sm 
+  focus:border-uv-primary-0 focus:text-uv-primary-0 focus:outline-0;
+}
+
+.input {
+  @apply w-full
+  border outline-0 border-neutral-70 rounded 
+  font-primary text-sm font-normal text-neutral-0
+  px-2 py-0
+  
+  focus:border-uv-primary-0 focus:text-uv-primary-0;
+}
+
+.multiline {
+  @apply py-2;
+}
+
+.error {
+  @apply border-error-dark
+  hover:border-error-dark
+  focus:border-error-dark;
+}
+
+.success {
+  @apply border-success-dark
+  hover:border-success-dark
+  focus:border-success-dark;
+}
+
+.feedbackerror {
+  @apply text-error-dark;
+}
+.feedbacksuccess {
+  @apply text-success-dark;
+}
+
+.outline {
+  @apply !outline-none !outline-0 !border-0;
+}
+
+.disabled {
+  @apply opacity-50 !border-neutral-70 !cursor-not-allowed;
+}
+
+.adornedEnd {
+  @apply pr-3;
+}

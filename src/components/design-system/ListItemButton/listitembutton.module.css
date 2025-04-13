@@ -1,0 +1,49 @@
+.root {
+  @apply rounded
+  px-2 py-1;
+}
+
+.rootPrimary {
+  @apply hover:bg-uv-secondary-10;
+}
+.rootSecondary {
+  @apply hover:bg-gray-200;
+}
+
+.icon {
+  @apply text-uv-primary-0
+  min-w-min
+  mr-2;
+}
+
+.itemText {
+  @apply font-secondary
+  font-normal
+  text-sm
+  text-[0.8rem]
+  tracking-wide;
+}
+
+.itemTextPrimary {
+  @apply text-black;
+}
+.itemTextSecondary {
+  @apply text-black;
+}
+
+.itemTextLevelTwo {
+  @apply pl-2
+  font-secondary
+  text-black
+  font-normal
+  text-[13px]
+  tracking-wide
+  block;
+}
+
+.rootPrimary:hover .itemText,
+.rootPrimary:hover .icon,
+.rootPrimary:hover .itemTextLevelTwo,
+.rootPrimary:hover svg {
+  @apply text-white;
+}

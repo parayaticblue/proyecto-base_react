@@ -1,0 +1,3 @@
+.tooltip{
+  @apply bg-neutral-10 font-primary text-xs p-2
+}

@@ -1,0 +1,11 @@
+.thumbnail{
+  @apply 
+  relative w-56 
+}
+.thumbnailInner{
+  @apply
+  w-56 h-44 relative 
+  overflow-hidden rounded 
+  shadow-md bg-no-repeat bg-center 
+  bg-cover bg-white mb-2 border flex items-center justify-center
+}

@@ -1,0 +1,21 @@
+.root{
+  @apply text-uv-secondary-0
+}
+.mark{
+  @apply w-2 h-2 rounded-full bg-uv-secondary-0
+}
+.rail{
+  @apply bg-neutral-80
+}
+.marked{
+
+}
+.track{
+
+}
+.markLabel{
+  @apply font-primary text-xs font-medium
+}
+.thumb{
+  @apply shadow-none bg-uv-secondary-0
+}

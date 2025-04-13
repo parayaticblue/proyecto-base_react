@@ -1,0 +1,23 @@
+.root{
+  @apply
+    flex h-5 items-center border-uv-primary-0
+    active:text-red-500 
+}
+
+.completed{
+  @apply
+    w-6 h-6 rounded-full text-white bg-uv-primary-0
+}
+
+.completed svg{
+  @apply ml-1 mt-1.5
+}
+
+.circle{
+  @apply
+    w-6 h-6 rounded-full text-white bg-uv-primary-90 border-uv-primary-0
+}
+
+.active .circle{
+  @apply bg-white border-uv-primary-0 border
+}

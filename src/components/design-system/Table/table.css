@@ -1,0 +1,23 @@
+#tableComponent .MuiTypography-root{
+  @apply font-primary text-sm
+}
+
+#tableComponent .MuiTablePagination-selectLabel{
+  @apply font-primary text-xs py-0
+}
+
+#tableComponent .MuiInputBase-root{
+  @apply font-primary text-sm
+}
+
+#tableComponent .MuiTablePagination-displayedRows{
+  @apply font-primary text-xs
+}
+
+#tableComponent .MuiTablePagination-select{
+  @apply font-primary text-xs py-0
+}
+
+#tableComponent{
+  @apply shadow-md
+}

@@ -1,0 +1,94 @@
+/*
+  Roles
+  tailwind.config.js
+*/
+.generador {
+  @apply bg-oferente;
+}
+.receptor {
+  @apply bg-demandante;
+}
+.asesor {
+  @apply bg-gestor;
+}
+.transportista {
+  @apply bg-gestor;
+}
+.gestor {
+  @apply bg-gestor;
+}
+.oferentedemandante {
+  @apply bg-uv-secondary-0;
+}
+.recicladordebaseTIPO-A {
+  @apply bg-yellow-500;
+}
+.recicladordebaseTIPO-B {
+  @apply bg-gray-400;
+}
+.recicladordebaseTIPO-C {
+  @apply bg-yellow-800;
+}
+.asesordecircularidad {
+  @apply bg-asessordecircularidad;
+}
+
+/*
+  Tipos
+*/
+.etiqueta {
+  @apply relative text-white text-xs font-primary inline-block rounded-full px-3 py-0.5 mb-2 capitalize;
+}
+.marcador {
+  @apply w-10 h-10 rounded-lg border border-white text-white flex items-center justify-center;
+}
+.marcador-reciclador {
+  @apply w-11 h-11 rounded-lg border border-white text-white flex items-center justify-center;
+}
+.marcador-asesordecircularidad {
+  @apply w-11 w-11 rounded-lg border border-white bg-asessordecircularidad flex items-center justify-center;
+}
+
+.iconoEtiqueta {
+  @apply text-base mr-1;
+}
+.iconoMarcador {
+  @apply text-2xl;
+}
+
+/*
+  icono
+*/
+.icono-oferente {
+  @apply text-oferente;
+}
+.icono-demandante {
+  @apply text-demandante;
+}
+.icono-asesor {
+  @apply text-gestor;
+}
+.icono-transportista {
+  @apply text-gestor;
+}
+.icono-gestor {
+  @apply text-gestor;
+}
+.icono-oferentedemandante {
+  @apply text-uv-secondary-0;
+}
+.icono-recicladordebase-oro {
+  @apply bg-yellow-500;
+}
+.icono-recicladordebase-plata {
+  @apply bg-uv-secondary-40;
+}
+.icono-recicladordebase-bronce {
+  @apply bg-yellow-800;
+}
+.icon-recicladordebase {
+  @apply bg-yellow-800;
+}
+.icono-asesordecircularidad {
+  @apply text-asessordecircularidad;
+}

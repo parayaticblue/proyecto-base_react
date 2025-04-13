@@ -1,0 +1,44 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5{
+  @apply
+  font-primary
+  font-semibold
+  text-black
+}
+
+.h1{
+  @apply 
+  text-3xl
+  mb-2
+}
+
+.h2{
+  @apply 
+  text-2xl
+  mb-2
+}
+
+.h3{
+  @apply 
+  text-lg
+  mb-2
+}
+
+.h4{
+  @apply 
+  text-base
+  mb-2
+}
+
+.h5{
+  @apply 
+  text-sm
+  mb-2
+}
+
+.disabled{
+  @apply opacity-50 select-none
+}

@@ -1,0 +1,84 @@
+.primary{
+  @apply 
+  normal-case	
+  h-9
+  inline-flex
+  !bg-uv-secondary-10
+  text-white
+
+  font-primary
+  text-[13px]
+  font-medium
+  py-2 px-6
+  rounded
+  shadow-none
+  hover:shadow-none
+
+  cursor-pointer
+  items-center
+  
+  justify-start
+
+  hover:!bg-uv-secondary-0
+  focus:!bg-uv-secondary-20
+}
+
+.secondary{
+  @apply 
+  normal-case	
+  h-9
+  inline-flex
+  !bg-background-primary
+  text-uv-primary-0
+  shadow-none
+  hover:shadow-none
+
+  font-primary
+  text-[13px]
+  font-semibold
+  py-2 px-6
+  rounded
+
+  cursor-pointer
+  items-center
+  
+  justify-start
+
+  hover:!bg-uv-primary-80
+  focus:!bg-uv-primary-0
+  focus:text-white
+}
+
+.ghost{
+  @apply 
+  normal-case	
+  h-9
+  inline-flex
+  !bg-transparent
+  text-uv-primary-0
+  shadow-none
+  hover:shadow-none
+
+  font-primary
+  text-[13px]
+  font-medium
+  py-2 px-6
+  rounded
+
+  cursor-pointer
+  items-center
+  
+  justify-start
+
+  hover:!bg-background-primary
+  focus:!bg-background-primary
+}
+
+
+.isLoading{
+  @apply !bg-neutral-80 !text-white
+}
+
+.disabled{
+  @apply !bg-neutral-80 !text-white
+}

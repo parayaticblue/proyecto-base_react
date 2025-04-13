@@ -1,0 +1,8 @@
+.root{
+  @apply 
+  bg-transparent
+  px-2
+  mb-4
+
+  font-secondary text-xs font-semibold text-black tracking-wide
+}

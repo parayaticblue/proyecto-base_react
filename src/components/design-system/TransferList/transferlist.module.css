@@ -1,0 +1,10 @@
+.option[aria-selected="true"]{
+  @apply !bg-uv-primary-30 text-white
+}
+.paper{
+  @apply font-primary text-sm
+}
+
+.groupLabel{
+  @apply text-xs font-primary py-1 text-uv-secondary-0 mt-4
+}
