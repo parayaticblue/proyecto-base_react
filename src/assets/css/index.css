@@ -1,0 +1,168 @@
+@import "tailwindcss";  /* Importa el archivo de configuración de Tailwind */
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-xxs-min: 0px;
+  --breakpoint-xxs-max: 479px;
+  --breakpoint-xs-min: 480px;
+  --breakpoint-xs-max: 639px;
+  --breakpoint-sm-min: 640px;
+  --breakpoint-sm-max: 767px;
+  --breakpoint-md-min: 768px;
+  --breakpoint-md-max: 1023px;
+  --breakpoint-lg-min: 1024px;
+  --breakpoint-lg-max: 1279px;
+  --breakpoint-xl-min: 1280px;
+  --breakpoint-xl-max: 1535px;
+  --breakpoint-2xl-min: 1536px;
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
+
+  /* Fuentes */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Rubik", sans-serif;
+
+  /* Tamaños de fuente */
+  --font-size-title-1: 28px;
+  --font-size-title-2: 24px;
+  --font-size-title-3: 20px;
+  --font-size-title-4: 16px;
+  --font-size-title-5: 14px;
+
+  /* Border Radius */
+  --border-radius-default: 4px;
+
+  /* Strokes */
+  --stroke-primary: #226355;
+  --stroke-secondary: #C38975;
+  --stroke-gray: #666666;
+
+  /* Success Strokes */
+  --stroke-success-light: #EBFFF3;
+  --stroke-success: #70CF98;
+  --stroke-success-dark: #06B851;
+
+  /* Info Strokes */
+  --stroke-info-light: #F1F7FF;
+  --stroke-info: #3FB2FF;
+  --stroke-info-dark: #3183F2;
+
+  /* Warning Strokes */
+  --stroke-warning-light: #FBF4DB;
+  --stroke-warning: #FFAD01;
+  --stroke-warning-dark: #D18E00;
+
+  /* Error Strokes */
+  --stroke-error-light: #FFF5F4;
+  --stroke-error: #FF7777;
+  --stroke-error-dark: #E83E3E;
+
+  /* Box Shadows */
+  --shadow-navbar: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  --shadow-select: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  --shadow-card: 0px 0px 0px rgba(63, 63, 68, 0.05), 0px 1px 9px rgba(18, 18, 91, 0.15);
+  --shadow-card-2: 0px 0px 4px rgba(0, 0, 0, 0.015);
+  --shadow-popper: 0px 0px 0px rgba(63, 63, 68, 0.05), 0px 1px 9px rgba(18, 18, 91, 0.15);
+  --shadow-top: 0px -4px 6px rgb(0 0 0 / 8%);
+  --shadow-bottom: 0px 4px 6px rgb(0 0 0 / 8%);
+
+  /* Semantic Colors */
+  --color-success-light: #E3FCEF;
+  --color-success: #ABF5D1;
+  --color-success-dark: #006644;
+
+  --color-info-light: #DEEBFF;
+  --color-info: #B3D4FF;
+  --color-info-dark: #0747A6;
+
+  --color-warning-light: #FFEFB7;
+  --color-warning: #FFD46E;
+  --color-warning-dark: #B1762F;
+
+  --color-error-light: #FFEBE6;
+  --color-error: #FFBDAD;
+  --color-error-dark: #BF2600;
+
+  /* Base Primary Colors */
+  --color-base-primary-0: #225B2A;
+  --color-base-primary-10: #376B3E;
+  --color-base-primary-20: #4E7B54;
+  --color-base-primary-30: #638B69;
+  --color-base-primary-40: #7A9C7F;
+  --color-base-primary-50: #90AC94;
+  --color-base-primary-60: #A6BDA9;
+  --color-base-primary-70: #BCCDBE;
+  --color-base-primary-80: #D2DED4;
+  --color-base-primary-90: #E8EEE9;
+
+  /* Base Secondary Colors */
+  --color-base-secondary-0: #43A7B6;
+  --color-base-secondary-10: #55AFBD;
+  --color-base-secondary-20: #68B8C4;
+  --color-base-secondary-30: #7BC1CB;
+  --color-base-secondary-40: #8ECAD3;
+  --color-base-secondary-50: #A0D3DA;
+  --color-base-secondary-60: #B3DCE2;
+  --color-base-secondary-70: #C6E4E9;
+  --color-base-secondary-80: #D9EDF0;
+  --color-base-secondary-90: #ECF6F8;
+
+  /* Neutral Colors */
+  --color-neutral-white: #FFFFFF;
+  --color-neutral-black: #000000;
+  --color-neutral-0: #233936;
+  --color-neutral-10: #384C4A;
+  --color-neutral-20: #4D5F5C;
+  --color-neutral-30: #627270;
+  --color-neutral-40: #778482;
+  --color-neutral-50: #8C9796;
+  --color-neutral-60: #A1AAA9;
+  --color-neutral-70: #B6BDBC;
+  --color-neutral-80: #CBCFCF;
+  --color-neutral-90: #E0E3E2;
+
+  /* Background Colors */
+  --color-background-primary: #EFF5F4;
+  --color-background-secondary: #EDF8F9;
+  --color-card: #FFFFFF;
+
+  /* Animations */
+  --animation-fade-in-right: fade-in-right 0.3s ease-in;
+  --animation-fade-out-right: fade-out-right 0.3s ease-out;
+  --animation-fade-in: fade-in 0.3s ease-in;
+  --animation-fade-out: fade-out 0.3s ease-out;
+}
+
+/* Keyframes */
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-out-right {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+}
