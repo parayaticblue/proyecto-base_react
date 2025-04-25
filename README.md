@@ -133,25 +133,32 @@ PORT=3000
 - Versión de Vite 6.2.0 [https://vitejs.dev/guide/migrating-to-v3.html]
 - Versión de React Router 7.5.0 [https://reactrouter.com/en/main/upgrade-guides/v6.4]
 - Versión de Tailwind 4.1.3 [https://tailwindcss.com/docs/installation]
-- Versión de Formik 2.2.9 [https://formik.org/docs/overview]
+- Versión de Formik 2.4.6 [https://formik.org/docs/overview]
+- Versión de Yup 1.6.1 [https://www.npmjs.com/package/yup]
+- Versión de Axios 1.8.4 [https://axios-http.com/docs/intro]
+- Versión de Env-cmd 10.1.0 [https://www.npmjs.com/package/env-cmd]
+
+
 
 
 
 ## Elección de React como librería de UI
 - React es una librería de JavaScript para construir interfaces de usuario. Se eligió React por su flexibilidad, rendimiento y la gran comunidad que lo respalda. Además, permite crear componentes reutilizables, lo que facilita el mantenimiento y la escalabilidad del proyecto.
+
 ## Elección de Tailwind CSS como framework de estilos
 - Tailwind CSS es un framework de CSS que permite crear diseños personalizados de manera rápida y eficiente. Se eligió Tailwind por su enfoque en la utilidad, lo que permite aplicar estilos directamente en los componentes sin necesidad de escribir CSS adicional. Esto acelera el proceso de desarrollo y mejora la consistencia del diseño.
+
 ## Elección de React Router para la gestión de rutas
 - React Router es una librería para la gestión de rutas en aplicaciones React. Se eligió React Router por su facilidad de uso y su capacidad para manejar rutas dinámicas y anidadas. Esto permite crear una navegación fluida y eficiente en la aplicación.
+
 ## Elección de Formik y Yup para la gestión de formularios
 - Formik es una librería para la gestión de formularios en React, mientras que Yup es una librería para la validación de esquemas. Se eligieron estas librerías por su capacidad para simplificar la gestión de formularios y la validación de datos. Esto permite crear formularios complejos de manera sencilla y eficiente.
+
 ## Elección de Axios para la gestión de peticiones HTTP
 - Axios es una librería para realizar peticiones HTTP en JavaScript. Se eligió Axios por su simplicidad y su capacidad para manejar peticiones asíncronas de manera eficiente. Esto permite interactuar con APIs de manera sencilla y manejar errores de forma adecuada.
-## Elección de Query String para la gestión de parámetros de URL
-- Query String es una librería para la manipulación de cadenas de consulta en URLs. Se eligió Query String por su capacidad para simplificar la gestión de parámetros en las URLs. Esto permite crear enlaces y manejar datos de manera eficiente.
+
 ## Elección de Vite como herramienta de construcción
 - Vite es una herramienta de construcción para aplicaciones web modernas. Se eligió Vite por su rapidez y su capacidad para manejar proyectos de gran escala de manera eficiente. Además, Vite ofrece una experiencia de desarrollo fluida con recarga en caliente, lo que acelera el proceso de desarrollo y mejora la productividad del equipo.
-
 
 
 
